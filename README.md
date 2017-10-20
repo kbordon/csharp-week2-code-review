@@ -33,3 +33,8 @@ _This is an application that exercises Behavior-Driven Development C# in taking 
 | If the user enters more than a single word to count in the form, it will count each word matched exactly to the block of text to count from, ignoring punctuation. | I dance<br>Dance? No, I will not dance, for dancer I am not! | You entered: I <br>Counted: 2<br><br> You entered: dance <br>Counted: 1<br><br>Text:<br>Dance? No, I will not dance, for dancer I am not! |
 
 ## Setup/Installation Requirements
+**At this moment, this project only consists of a README.md, but in the future it will require the .NET framework for installation, and will provide those necessary instructions.**
+* Enter the URL: https://github.com/kbordon/csharp-week2-code-review in your browser, and the project page will display the README.md below the table of folders.
+* If you have successfully installed the .NET framework, using your terminal or powershell, clone this repository by typing ">git clone https://github.com/kbordon/csharp-week2-code-review.git"
+    * Alternatively, you can use a browser to download the .zip file from the Github web interface at the URL: https://github.com/kbordon/csharp-week2-code-review
+* Navigate to the project folder csharp-week2-code-review, and use a text editor like Atom to open the README.md.
