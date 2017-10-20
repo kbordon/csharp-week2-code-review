@@ -1,5 +1,5 @@
 # Word Count
-### A Word Counting Application for Epicodus C# BDD Code Review _10.20.2017_
+## A Word Counting Application for Epicodus C# BDD Code Review _10.20.2017_
 
 ### By Kimberly Bordon
 
@@ -10,9 +10,9 @@ _This is an application that exercises Behavior-Driven Development C# in taking 
 
 | Behavior | Input Example| Output Example|
 |-|-|-|
-| When the user enters their word to count, it will store that word and show it on the next page. | cat | You entered: cat |
-| If the user enters non-alphabetical letters or numbers, it will still store that word | Kat3 | You entered: Kat3 |
-| When the user enters their word to count, and their desired block of text to count from, it will store both and show them on the next page. | cat <br><br>I love my cat Grindel, she's the coolest cat that ever did cat. | You entered: cat<br><br>Text:<br>I love my cat Grindel, she's the coolest cat that ever did cat. |
+| When the user enters a word to count, it will store that word and show it on the next page. | cat | You entered: cat |
+| If the user enters non-alphabetical letters or numbers in their word, it will still store that word. | Kat3 | You entered: Kat3 |
+| When the user enters a word to count, and their desired block of text to count from, it will store both and show them on the next page. | cat <br><br>I love my cat Grindel, she's the coolest cat that ever did cat. | You entered: cat<br><br>Text:<br>I love my cat Grindel, she's the coolest cat that ever did cat. |
 | When the user enters a single letter word to count, and the same word to count from, it will count it once. | a <br> a | You entered: a <br> Counted: 1 <br><br>Text:<br> a |
 | When the user enters a single letter word to count, and a different single letter word to count from, it will count zero. | a<br> i | You entered: a <br> Counted: 0<br><br> Text:<br> i |
 | When the user enters a single letter word, and the same word but in different casing, it will not consider it an exact match, and will still count it zero. | a<br> A | You entered: a <br> Counted: 0<br><br>Text:<br> A |
@@ -34,7 +34,23 @@ _This is an application that exercises Behavior-Driven Development C# in taking 
 
 ## Setup/Installation Requirements
 **At this moment, this project only consists of a README.md, but in the future it will require the .NET framework for installation, and will provide those necessary instructions.**
-* Enter the URL: https://github.com/kbordon/csharp-week2-code-review in your browser, and the project page will display the README.md below the table of folders.
-* If you have successfully installed the .NET framework, using your terminal or powershell, clone this repository by typing ">git clone https://github.com/kbordon/csharp-week2-code-review.git"
+* Enter the URL: https://github.com/kbordon/csharp-week2-code-review in your browser, and the project page will display the README.md below the table of file links.
+* Or, if you'd prefer to view the README.md locally, using your terminal or powershell, clone this repository by typing ">git clone https://github.com/kbordon/csharp-week2-code-review.git"
     * Alternatively, you can use a browser to download the .zip file from the Github web interface at the URL: https://github.com/kbordon/csharp-week2-code-review
 * Navigate to the project folder csharp-week2-code-review, and use a text editor like Atom to open the README.md.
+
+## Support and contact details
+
+_If you have any questions, comments, or concerns, please contact Kimberly at [kbordon@gmail.com](mailto:kbordon@gmail.com)._
+
+## Technologies Used
+
+* Atom
+* GitHub
+* _TBA_
+
+### License
+
+*This software is licensed under the MIT license.*
+
+Copyright © 2017 **_Kimberly Bordon_**
