@@ -1,7 +1,7 @@
 # Word Count
-## A Word Counting Application for Epicodus C# BDD Code Review _10.20.2017_
+### A Word Counting Application for Epicodus C# BDD Code Review _10.20.2017_
 
-### By Kimberly Bordon
+#### By Kimberly Bordon
 
 ## Description
 _This is an application that exercises Behavior-Driven Development C# in taking a word from a user, and counting its occurrences from a user-provided block of text._
